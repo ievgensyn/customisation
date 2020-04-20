@@ -1,0 +1,13 @@
+<odoo>
+    <record id="add_phone_partner_add_phone_form_view" model="ir.ui.view">
+        <field name="name">add.phone.partner.add.phone.form.view</field>
+        <field name="model">res.partner</field>
+        <field name="priority" eval="99"/>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='mobile']/.." position="after">
+                <field name="add_phone_partner_phone" widget="phone"/>
+            </xpath>
+        </field>
+    </record>
+</odoo>
