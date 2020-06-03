@@ -1,13 +1,13 @@
 {
     'name': 'Partner customization',
-    'summary': 'Additional phone number for Contact',
+    'summary': 'Additional fields in res.partner',
     'category': 'Extra Tools',
 
     'license': 'Other proprietary',
     'author': 'Kitworks Systems',
     'website': 'https://kitworks.systems/',
 
-    'version': '12.0.0.0.1',
+    'version': '12.0.0.0.2',
     'depends': ['base', 'contacts', ],
 
     'data': [
